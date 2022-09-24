@@ -1,0 +1,254 @@
+/*Corpo de fundo do  site*/
+body {   
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+/*Interior da div*/
+div#interface {
+    background-color: #efcdcd;
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    box-shadow: 0px 5px 30px;
+    padding: 0.5px 10px 10px 10px;
+}
+
+/*Cabecalho e logo */
+header#cabecalho  {
+    border: 2px  #a42a4e solid;
+    border-radius: 5px;
+    height: 315px;
+}
+
+header#cabecalho h1 {
+    font-family: MV Boli;
+    position: relative;
+    top: -19.5rem;
+    right: -30.5rem;    
+}
+
+header#cabecalho p {
+    font-family: Gabriola;
+    position: relative;
+    top:-20rem;
+    right: -25rem;
+    text-align: justify;
+    line-height: 35px;
+    font-size: 22.5pt;
+    width: 580px;
+    height: 120px;
+}
+p#cidade {
+    font-family: Arial Black;
+    text-align: right;
+    
+}
+
+ /* Edição do botões Nav
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;  
+}
+
+nav#menu li {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #a42a4e;
+    padding: 8px;
+    margin: 5.5px;
+    transition: background-color 2s;
+}
+
+nav#menu li:hover {
+    background-color: blue;
+}
+
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+*/
+
+h1#titulo-galeria {
+    font-family: MV Boli;
+    font-size: 25pt;
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 0.8rem;
+    background-color: rgb(221, 103, 122);
+    width: 780px;
+    border-radius: 5px;
+}
+
+/*Edição da imagem*/
+ul#album-fotos {
+    position: relative;
+    top: 1.5rem;
+    bottom: 15px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    background-color: rgb(221, 103, 122);
+    border-radius: 5px;
+}
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .6s ease-in;
+}
+ul#album-fotos li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+/*Adição de img as Li´s*/
+
+ul#album-fotos li#foto01 {
+    background: url('imagens/bolo_pamonha_foto1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+    background: url('imagens/bolo_kitkat.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+    background:url('imagens/bolo_ninho_com_nutella2.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+    background:url('imagens/bolo_cenoura_com_brigadeiro.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+    background: url('imagens/bolo_prestigio.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+    background: url('imagens/bolo_abacaxi_com_ninho.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*Lateral*/
+/*
+aside#lateral {
+    position: absolute;
+    right: 180px;
+    top: 345px;
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: rgb(179, 37, 61);
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5)
+}
+
+aside#lateral h1 {
+    font-family: Segoe script;
+    font-size: 20pt;
+    color: white;
+    margin-top: 0px;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 15pt;
+    color: #ffffff;
+    padding: 5px;
+
+}
+*/
+/*Rodape*/
+footer#rodape {
+    position: relative;
+    top: 2rem;
+    font-family: MV Boli;
+    font-size: 16pt;
+    text-align: center;
+    clear: both;
+    border-top: 1px solid #a42a4e;
+}
+
+img#logo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    -webkit-transition: all .1s ease-in;
+}
+img#logo:hover {
+    -webkit-transform: scale(1.5);
+}
+
+
